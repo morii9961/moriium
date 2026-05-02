@@ -44,7 +44,10 @@ const adapter = process.env.GITHUB_ACTIONS
             ? netlify()
             : (process.env.EDGEONE
                 ? edgeone()
-                : vercel({ mode: "serverless" })
+                : (process.env.NODE_SERVER
+                    ? node({ mode: "standalone" })
+                    : vercel({ mode: "serverless" })
+                )
             )
         )
     );

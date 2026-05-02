@@ -33,7 +33,6 @@ import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
-import node from "@astrojs/node";
 
 // Choose adapter depending on deployment environment
 const adapter = process.env.GITHUB_ACTIONS
@@ -44,10 +43,7 @@ const adapter = process.env.GITHUB_ACTIONS
             ? netlify()
             : (process.env.EDGEONE
                 ? edgeone()
-                : (process.env.NODE_SERVER
-                    ? node({ mode: "standalone" })  // ← 新增
-                    : vercel({ mode: "serverless" })
-                )
+                : vercel({ mode: "serverless" })
             )
         )
     );

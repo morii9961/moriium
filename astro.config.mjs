@@ -36,7 +36,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import node from "@astrojs/node";
 
 // Choose adapter depending on deployment environment
-const adapter = process.env.GITHUB_ACTIONS
+const adapter = (process.env.GITHUB_ACTIONS && !process.env.NODE_SERVER)
     ? undefined
     : (process.env.CF_PAGES
         ? cloudflarePages()

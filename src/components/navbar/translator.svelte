@@ -117,7 +117,7 @@ onDestroy(() => {
                         class="gap-3 p-2! h-auto!"
                         isLast={false}
                     >
-                        <span class="text-lg transition">{lang.icon}</span>
+                        <span class="lang-icon text-lg transition">{lang.icon}</span>
                         <span class="text-sm transition grow text-left">{lang.name}</span>
                         {#if currentLanguage === lang.code}
                             <span class="ml-auto text-(--primary)">✓</span>
@@ -131,6 +131,19 @@ onDestroy(() => {
 {/if}
 
 <style>
+/* 移动端: 强制国旗 emoji 以纯文本字母对呈现 (与桌面端 Windows 默认渲染一致, 例如 "CN"/"US") */
+@media (max-width: 1023px) {
+    .lang-icon {
+        /* CSS Fonts 4: 强制 emoji 以文字呈现, 受支持的浏览器会回退到字母对 */
+        font-variant-emoji: text;
+        /* 不含彩色国旗字形的字体栈, 让国旗 emoji 回落到地区指示符字母 */
+        font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+    }
+}
+
 /* 滚动条样式 */
 .overflow-y-auto::-webkit-scrollbar {
     width: 4px;

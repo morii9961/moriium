@@ -9,8 +9,12 @@ export const ja: Translation = {
     // ナビゲーション
     [Key.home]: "ホーム",
     [Key.archive]: "アーカイブ",
+    [Key.archiveSubtitle]: "公開された全ての記事を時系列順に",
     [Key.about]: "について",
+    [Key.aboutSubtitle]: "本サイトと作者について",
     [Key.search]: "検索",
+    [Key.exhibition]: "展示",
+    [Key.exhibitionDescription]: "創作と足跡の集積",
 
     // 投稿
     [Key.directory]: "ディレクトリ",
@@ -21,6 +25,7 @@ export const ja: Translation = {
     [Key.recentPosts]: "最近の投稿",
     [Key.postList]: "投稿リスト",
     [Key.statistics]: "統計",
+    [Key.activities]: "アクティビティ",
     [Key.tableOfContents]: "目次",
 
     // 統計
@@ -32,6 +37,7 @@ export const ja: Translation = {
     // お知らせ
     [Key.announcement]: "お知らせ",
     [Key.announcementClose]: "閉じる",
+    [Key.learnMore]: "詳しく見る",
 
     [Key.comments]: "コメント",
     [Key.untitled]: "無題",
@@ -191,6 +197,7 @@ export const ja: Translation = {
 
     // 友達ページ
     [Key.friends]: "友達",
+    [Key.friendsSubtitle]: "厳選された友サイト一覧",
 
     // RSSページ
     [Key.rss]: "RSSフィード",

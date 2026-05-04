@@ -9,7 +9,9 @@ export const zh: Translation = {
     // 导航
     [Key.home]: "主页",
     [Key.archive]: "归档",
+    [Key.archiveSubtitle]: "按时间顺序排列的所有文章",
     [Key.about]: "关于",
+    [Key.aboutSubtitle]: "关于本站与作者",
     [Key.search]: "搜索",
     [Key.exhibition]: "展览",
     [Key.exhibitionDescription]: "创作与行迹的汇集",
@@ -24,6 +26,7 @@ export const zh: Translation = {
     [Key.postList]: "文章列表",
     [Key.statistics]: "统计",
     [Key.tableOfContents]: "目录",
+    [Key.activities]: "活跃度",
 
     // 统计
     [Key.pageViews]: "浏览量",
@@ -34,6 +37,7 @@ export const zh: Translation = {
     // 公告栏
     [Key.announcement]: "公告",
     [Key.announcementClose]: "关闭",
+    [Key.learnMore]: "了解更多",
 
     [Key.comments]: "评论",
     [Key.untitled]: "无标题",
@@ -193,6 +197,7 @@ export const zh: Translation = {
 
     // 友链页面
     [Key.friends]: "友链",
+    [Key.friendsSubtitle]: "精心收藏的友站集合",
 
     // RSS页面
     [Key.rss]: "RSS 订阅",

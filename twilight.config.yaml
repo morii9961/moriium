@@ -14,8 +14,8 @@ site:
         enable: true
         # 翻译服务
         service: "client.edge"
-        # 显示语言选择下拉框
-        showSelectTag: true
+        # 显示语言选择下拉框 (translate.js 自带的浮动 select; 已有自定义下拉, 关闭以避免移动端错位)
+        showSelectTag: false
         # 自动检测用户语言
         autoDiscriminate: false
         # 翻译时忽略的 CSS 类名

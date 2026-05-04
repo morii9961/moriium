@@ -1,18 +1,18 @@
 ---
 
-## How to Apply
+## 申请方式
 
-Please send your website information to: xxx@xxx.com
+请将您的网站信息发送至：enouiamorii@gmail.com
 
-Email Subject:
+邮件主题：
 ```
-Request to Add Friend
+申请添加友链
 ```
 
-Email Content (Template):
+邮件内容（模板）：
 ```
-Site Name: [Your Site Name]
-Site Desc: [Your Site Description]
-Site Link: [Your Site Link]
-Avatar Link: [Your Avatar Link]
+站点名称：[您的站点名称]
+站点描述：[您的站点描述]
+站点链接：[您的站点链接]
+头像链接：[您的头像链接]
 ```

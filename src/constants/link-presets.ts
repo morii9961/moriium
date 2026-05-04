@@ -14,7 +14,7 @@ export const LinkPresets: { [key in LinkPreset]: NavbarLink } = {
         name: i18n(I18nKey.archive),
         url: "/archive/",
         icon: "material-symbols:archive",
-        description: "A chronological list of all published posts.",
+        description: i18n(I18nKey.archiveSubtitle),
     },
     [LinkPreset.Projects]: {
         name: i18n(I18nKey.projects),
@@ -56,19 +56,13 @@ export const LinkPresets: { [key in LinkPreset]: NavbarLink } = {
         name: i18n(I18nKey.friends),
         url: "/friends/",
         icon: "material-symbols:group",
-        description: "A curated list of friend sites.",
+        description: i18n(I18nKey.friendsSubtitle),
     },
     [LinkPreset.About]: {
         name: i18n(I18nKey.about),
         url: "/about/",
         icon: "material-symbols:info",
-        description: i18n(I18nKey.about),
-    },
-    [LinkPreset.About]: {
-        name: i18n(I18nKey.about),
-        url: "/about/",
-        icon: "material-symbols:info",
-        description: i18n(I18nKey.about),
+        description: i18n(I18nKey.aboutSubtitle),
     },
     [LinkPreset.Exhibition]: {                              // ← 新增
         name: i18n(I18nKey.exhibition),

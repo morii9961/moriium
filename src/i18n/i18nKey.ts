@@ -5,9 +5,11 @@ enum I18nKey {
     // 导航
     home = "home",
     archive = "archive",
+    archiveSubtitle = "archiveSubtitle",
     about = "about",
+    aboutSubtitle = "aboutSubtitle",
     search = "search",
-    exhibition = "exhibition",   
+    exhibition = "exhibition",
     exhibitionDescription = "exhibitionDescription",
 
     // 文章
@@ -19,6 +21,7 @@ enum I18nKey {
     recentPosts = "recentPosts",
     postList = "postList",
     statistics = "statistics",
+    activities = "activities",
     tableOfContents = "tableOfContents",
 
     // 统计
@@ -30,6 +33,7 @@ enum I18nKey {
     // 公告栏
     announcement = "announcement",
     announcementClose = "announcementClose",
+    learnMore = "learnMore",
 
     comments = "comments",
 
@@ -190,6 +194,7 @@ enum I18nKey {
 
     // 友链页面
     friends = "friends",
+    friendsSubtitle = "friendsSubtitle",
 
     // RSS页面
     rss = "rss",

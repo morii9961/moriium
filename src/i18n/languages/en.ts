@@ -9,7 +9,9 @@ export const en: Translation = {
     // Navigations
     [Key.home]: "Home",
     [Key.archive]: "Archive",
+    [Key.archiveSubtitle]: "A chronological list of all published posts",
     [Key.about]: "About",
+    [Key.aboutSubtitle]: "About this site and its author",
     [Key.search]: "Search",
     [Key.exhibition]: "Exhibition",
     [Key.exhibitionDescription]: "A collection of my creative works and experiences",
@@ -24,6 +26,7 @@ export const en: Translation = {
     [Key.postList]: "Post List",
     [Key.statistics]: "Statistics",
     [Key.tableOfContents]: "Table of Contents",
+    [Key.activities]: "Activities",
 
     // Page Stats
     [Key.pageViews]: "Views",
@@ -34,6 +37,7 @@ export const en: Translation = {
     // Announcement
     [Key.announcement]: "Announcement",
     [Key.announcementClose]: "Close",
+    [Key.learnMore]: "Learn More",
 
     [Key.comments]: "Comments",
     [Key.untitled]: "Untitled",
@@ -193,6 +197,7 @@ export const en: Translation = {
 
     // Friends Page
     [Key.friends]: "Friends",
+    [Key.friendsSubtitle]: "A curated list of friend sites",
 
     // RSS Page
     [Key.rss]: "RSS Feed",

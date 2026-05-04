@@ -1,6 +1,6 @@
 # 关于本站
 
-Twilight 是一款基于 [Astro](https://astro.build) 框架构建、并集成 CMS 的静态博客模板。
+Moriium 基于 [Twilight](https://github.com/Spr-Aachen/Twilight) 开源博客模板，是一款基于 [Astro](https://astro.build) 框架构建、并集成 CMS 的静态博客。
 
 ::github{repo="Spr-Aachen/Twilight"}
 

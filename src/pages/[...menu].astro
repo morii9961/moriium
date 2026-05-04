@@ -5,6 +5,7 @@ import { type NavbarLink } from "@/types/config";
 import { navbarConfig } from "@/config";
 import { LinkPresets } from "@constants/link-presets";
 import { url } from "@utils/url";
+import { translateNavName } from "@i18n/translateNavName";
 import GridLayout from "@layouts/grid.astro";
 import BackwardButton from "@components/backwardButton.astro";
 
@@ -40,7 +41,7 @@ const processedLinks = childrenLinks.map(child => {
     return child;
 });
 
-const pageTitle = link.name;
+const pageTitle = translateNavName(link.name);
 const pageDescription = link.description || "";
 ---
 

@@ -3,8 +3,7 @@ import { Icon } from "astro-icon/components";
 
 import { type NavbarLink } from "@/types/config";
 import { url } from "@utils/url";
-import { i18n } from "@i18n/translation";
-import I18nKey from "@i18n/i18nKey";
+import { translateNavName } from "@i18n/translateNavName";
 
 interface Props {
     link: NavbarLink;
@@ -13,17 +12,7 @@ interface Props {
 
 const { link, class: className } = Astro.props;
 
-// 显式映射表，避免枚举动态访问的问题
-const nameToI18n: Record<string, string> = {
-    'home':       i18n(I18nKey.home),
-    'archive':    i18n(I18nKey.archive),
-    'about':      i18n(I18nKey.about),
-    'search':     i18n(I18nKey.search),
-    'friends':    i18n(I18nKey.friends),
-    'exhibition': i18n(I18nKey.exhibition),
-};
-
-const displayName = nameToI18n[link.name.toLowerCase()] ?? link.name;
+const displayName = translateNavName(link.name);
 ---
 
 <div class:list={["nav-link-container", className]}>

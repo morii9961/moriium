@@ -6,6 +6,7 @@ import { LinkPresets } from "@constants/link-presets";
 import { LinkPreset, type NavbarLink } from "@/types/config";
 import { url } from "@utils/url";
 import { getNavbarTransparentModeForWallpaperMode, getDefaultWallpaperMode } from "@utils/wallpaper";
+import { translateNavName } from "@i18n/translateNavName";
 import NavLinks from "@components/navbar/navLinks.astro";
 import NavMenu from "@components/navbar/navMenu.svelte";
 import Search from "@components/navbar/search.svelte";
@@ -31,6 +32,11 @@ let links: NavbarLink[] = navbarConfig.links.map(
         return item;
     },
 );
+
+const mobileLinks: NavbarLink[] = links.map((l) => ({
+    ...l,
+    name: translateNavName(l.name),
+}));
 ---
 
 <div id="navbar" class="z-50 onload-animation-down px-3 sm:px-6 md:px-0" data-transparent-mode={navbarTransparentMode} data-is-home={isHomePage}>
@@ -55,7 +61,7 @@ let links: NavbarLink[] = navbarConfig.links.map(
             <DisplaySettings client:idle></DisplaySettings>
             <LightDarkSwitch client:idle></LightDarkSwitch>
             <WallpaperSwitch client:idle></WallpaperSwitch>
-            <NavMenu client:idle links={links}></NavMenu>
+            <NavMenu client:idle links={mobileLinks}></NavMenu>
         </div>
     </div>
 </div>

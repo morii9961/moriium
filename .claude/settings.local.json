@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git -C \"D:\\\\Users\\\\Morii\\\\Desktop\\\\Twilight\" ls-files)",
       "Bash(grep -E \"^\\\\.env$|^\\\\.env\\\\.\")",
-      "Bash(git *)"
+      "Bash(git *)",
+      "Bash(pnpm astro *)"
     ]
   }
 }

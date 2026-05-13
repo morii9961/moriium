@@ -4,7 +4,16 @@
       "Bash(git -C \"D:\\\\Users\\\\Morii\\\\Desktop\\\\Twilight\" ls-files)",
       "Bash(grep -E \"^\\\\.env$|^\\\\.env\\\\.\")",
       "Bash(git *)",
-      "Bash(pnpm astro *)"
+      "Bash(pnpm astro *)",
+      "WebFetch(domain:twilight.spr-aachen.com)",
+      "WebFetch(domain:api.i-meto.com)",
+      "WebFetch(domain:meting.qjqq.cn)",
+      "WebFetch(domain:meting-api-iota-nine.vercel.app)",
+      "Bash(gh api *)",
+      "Bash(python -c \"import sys,json; [print\\(f['name']\\) for f in json.load\\(sys.stdin\\)]\")",
+      "PowerShell(gh api *)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ]
   }
 }

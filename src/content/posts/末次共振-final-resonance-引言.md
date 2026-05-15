@@ -6,5 +6,5 @@ tags:
 category: 摄影
 draft: false
 ---
-::music{meting="https://meting-api-production-a2e4.up.railway.app/api?server=netease&type=song&id=1363298691"}
+::music{meting="https://meting.spr-aachen.com/api?server=netease&type=song&id=1363298691"}
 施工中内容

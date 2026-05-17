@@ -6,5 +6,5 @@ tags:
 category: 摄影
 draft: false
 ---
-::music{meting="https://meting.spr-aachen.com/api?server=tencent&type=song&id=000fvgGf4Gv7NX"}
+::music{meting="https://meting-api-production-a2e4.up.railway.app/api?server=tencent&type=song&id=000fvgGf4Gv7NX"}
 施工中内容

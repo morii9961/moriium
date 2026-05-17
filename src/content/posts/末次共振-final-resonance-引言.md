@@ -6,5 +6,5 @@ tags:
 category: 摄影
 draft: false
 ---
-::music{meting="https://meting.spr-aachen.com/api?server=tencent&type=song&id=000fvgGf4Gv7NX"}
+::music{title="Final Resonance" artist="ARForest" cover="https://p2.music.126.net/mHwD8HW8bAKn1BnQfMbDAQ==/109951172872220439.jpg" audio="assets/music/ARForest - Final Resonance.aac" lrc="https://meting.spr-aachen.com/api?server=netease&type=lrc&id=1363298691"}
 施工中内容

@@ -1,7 +1,7 @@
 ---
 title: 末次共振 -Final Resonance- 引言
 published: 2026-05-10T17:40:00.000+08:00
-cover: chatgpt-image-2026年5月17日-22_45_22.png
+cover: chatgpt-image-2026年5月18日-19_57_15.png
 tags:
   - "#0末次共振"
 category: 摄影

@@ -1,11 +1,14 @@
 ---
 title: 末次共振 -Final Resonance- 2024篇
 published: 2026-05-17T22:55:00.000+08:00
+cover: chatgpt-image-2026年5月18日-19_57_30.png
 tags:
   - "#0末次共振"
 category: 摄影
 draft: false
 ---
+![](chatgpt-image-2026年5月18日-20_01_23.png)
+
 > “城市并不会诉说它的过去。
 >
 > 它只是像掌纹一般，将过去留存在自身的纹理之中：

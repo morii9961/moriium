@@ -10,7 +10,7 @@ import I18nKey from "@i18n/i18nKey";
 // // Retrieve posts and sort them by publication date
 async function getRawSortedPosts() {
     const allBlogPosts = await getCollection("posts", ({ data }) => {
-        return import.meta.env.PROD ? data.draft !== true : true;
+        return import.meta.env.PROD ? (data.draft !== true && data.unlisted !== true) : true;
     });
 
     const sorted = allBlogPosts.sort((a, b) => {

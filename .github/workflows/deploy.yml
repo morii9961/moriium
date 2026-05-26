@@ -34,7 +34,9 @@ jobs:
         run: pnpm build
 
       - name: 压缩构建产物
-        run: tar -czf dist.tar.gz dist/
+        run: |
+          tar -czf dist.tar.gz dist/
+          ls -lh dist.tar.gz
 
       - name: 部署到服务器
         uses: appleboy/scp-action@v0.1.7

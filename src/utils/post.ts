@@ -26,6 +26,13 @@ async function getRawSortedPosts() {
     return sorted;
 }
 
+export async function getAllPostsForRoutes() {
+    const allPosts = await getCollection("posts", ({ data }) => {
+        return import.meta.env.PROD ? data.draft !== true : true;
+    });
+    return allPosts;
+}
+
 export async function getSortedPosts() {
     const sorted = await getRawSortedPosts();
 

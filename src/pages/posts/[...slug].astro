@@ -6,7 +6,7 @@ import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
 
 import { siteConfig, profileConfig, postConfig } from "@/config";
-import { getSortedPosts } from "@utils/post";
+import { getSortedPosts, getAllPostsForRoutes } from "@utils/post";
 import { formatDateToYYYYMMDD } from "@utils/date";
 import { getFileDirFromPath, getPostUrl, getPostUrlBySlug, removeFileExtension} from "@utils/url";
 import { SUPPORTED_LANGUAGES, langToTranslateMap } from "@i18n/language";
@@ -22,7 +22,7 @@ import GridLayout from "@layouts/grid.astro";
 
 
 export async function getStaticPaths() {
-    const blogEntries = await getSortedPosts();
+    const blogEntries = await getAllPostsForRoutes();
     const paths: {
         params: { slug: string };
         props: { entry: CollectionEntry<"posts"> };

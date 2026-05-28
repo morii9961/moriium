@@ -413,26 +413,91 @@ musicPlayer:
         # 类型 ("playlist" 歌单 | "song" 单曲)
         type: "playlist"
         # 资源 ID
-        id: "2161912966"
+        id: "17994155372"
     # local 模式专属配置
     local:
         # 播放列表
         playlist:
-            - # 列表示例
-                # 序号
+            -
                 id: 1
-                # 标题
-                title: "深海之息"
-                # 作者
-                artist: "Youzee Music"
-                # 封面
-                cover: "https://p1.music.126.net/PhKOqFtljgHDDpKYM2ADUA==/109951169858309716.jpg"
-                # 音乐路径
-                url: "assets/music/深海之息.m4a"
-                # 歌词路径
-                lrc: "assets/music/深海之息.lrc"
-                # 时长
-                duration: 146
+                title: "リレイアウター"
+                artist: "稲葉曇 / 歌愛ユキ"
+                cover: "https://p2.music.126.net/Elb8B1lagN5quGDHRVQ7yg==/109951168771802625.jpg"
+                url: "assets/music/稲葉曇,歌愛ユキ - リレイアウター.mp3"
+                lrc: "assets/music/稲葉曇,歌愛ユキ - リレイアウター.lrc"
+                duration: 189
+            -
+                id: 2
+                title: "春難色"
+                artist: "稲葉曇 / 彩澄しゅお / 彩澄りりせ"
+                cover: "https://p1.music.126.net/8JaW9n3a1bxC2N41R6I5YA==/109951171907298566.jpg"
+                url: "assets/music/稲葉曇,彩澄しゅお,彩澄りりせ - 春難色.mp3"
+                lrc: "assets/music/稲葉曇,彩澄しゅお,彩澄りりせ - 春難色.lrc"
+                duration: 188
+            -
+                id: 3
+                title: "きみに回帰線"
+                artist: "稲葉曇 / 歌愛ユキ"
+                cover: "https://p2.music.126.net/knmz7nqZChY3zkvIJetGHw==/109951167072292595.jpg"
+                url: "assets/music/稲葉曇,歌愛ユキ - きみに回帰線.mp3"
+                lrc: "assets/music/稲葉曇,歌愛ユキ - きみに回帰線.lrc"
+                duration: 212
+            -
+                id: 4
+                title: "ロストアンブレラ"
+                artist: "稲葉曇 / 歌愛ユキ"
+                cover: "https://p2.music.126.net/_qrgMQ6dFHi9PVBZoxLqXQ==/109951170987869438.jpg"
+                url: "assets/music/稲葉曇,歌愛ユキ - ロストアンブレラ.mp3"
+                lrc: "assets/music/稲葉曇,歌愛ユキ - ロストアンブレラ.lrc"
+                duration: 204
+            -
+                id: 5
+                title: "ハルノ寂寞"
+                artist: "稲葉曇 / 弦巻マキ"
+                cover: "https://p1.music.126.net/T2FF9-N3g_AL92g781b0oQ==/109951167072153797.jpg"
+                url: "assets/music/稲葉曇,弦巻マキ - ハルノ寂寞.mp3"
+                lrc: "assets/music/稲葉曇,弦巻マキ - ハルノ寂寞.lrc"
+                duration: 188
+            -
+                id: 6
+                title: "期待通り"
+                artist: "稲葉曇 / 音街ウナ"
+                cover: "https://p2.music.126.net/1CbCgz3azu7EjQJjm9Idpg==/109951168715280984.jpg"
+                url: "assets/music/稲葉曇,音街ウナ - 期待通り.mp3"
+                lrc: "assets/music/稲葉曇,音街ウナ - 期待通り.lrc"
+                duration: 178
+            -
+                id: 7
+                title: "シリウスの心臓"
+                artist: "ヰ世界情緒"
+                cover: "https://p2.music.126.net/c1JArnXMoUkEQdS1EcLXyw==/109951168567591834.jpg"
+                url: "assets/music/ヰ世界情緒 - シリウスの心臓.flac"
+                lrc: "assets/music/ヰ世界情緒 - シリウスの心臓.lrc"
+                duration: 298
+            -
+                id: 8
+                title: "竹ノ花"
+                artist: "めらみぽっぷ"
+                cover: "https://p1.music.126.net/QlGmIQzGCnnlDW87sf-LSg==/109951167115042566.jpg"
+                url: "assets/music/めらみぽっぷ - 竹ノ花.mp3"
+                lrc: "assets/music/めらみぽっぷ - 竹ノ花.lrc"
+                duration: 345
+            -
+                id: 9
+                title: "Particle Arts"
+                artist: "Virtual Self"
+                cover: "https://p1.music.126.net/rNwZ7vm8mG-Xx1zF-XuYtA==/109951169684707528.jpg"
+                url: "assets/music/Virtual Self - Particle Arts.mp3"
+                lrc: "assets/music/Virtual Self - Particle Arts.lrc"
+                duration: 234
+            -
+                id: 10
+                title: "愛の残滓"
+                artist: "藍月なくる"
+                cover: "https://p2.music.126.net/_2o7EFqR73GFqhCP_z4Q5A==/109951171543356147.jpg"
+                url: "assets/music/藍月なくる - 愛の残滓.mp3"
+                lrc: "assets/music/藍月なくる - 愛の残滓.lrc"
+                duration: 217
     # 是否自动播放
     autoplay: false
 

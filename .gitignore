@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # private config
 .env
+
+# Claude Code local settings
+.claude/settings.local.json

@@ -467,14 +467,6 @@ musicPlayer:
                 lrc: "assets/music/稲葉曇,音街ウナ - 期待通り.lrc"
                 duration: 178
             -
-                id: 7
-                title: "シリウスの心臓"
-                artist: "ヰ世界情緒"
-                cover: "https://p2.music.126.net/c1JArnXMoUkEQdS1EcLXyw==/109951168567591834.jpg"
-                url: "assets/music/ヰ世界情緒 - シリウスの心臓.flac"
-                lrc: "assets/music/ヰ世界情緒 - シリウスの心臓.lrc"
-                duration: 298
-            -
                 id: 8
                 title: "竹ノ花"
                 artist: "めらみぽっぷ"

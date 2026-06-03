@@ -31,11 +31,13 @@ When we sink into the sorrow of departure, we are also reminiscing about that fl
 After writing so much, everything has become rather fragmented; I have been writing almost entirely as thoughts came to me, which is far more unrestrained than any exam essay could ever be. My high school years have now come to an end, and I was only one student in the long course of your teaching career, so parting was always inevitable. “There is no need to mourn over the farewell cup; those who drink deeply have always carried hearts of their own.” I do not know whether I will ever return to Dalian, whether I will ever again have the chance to step through my alma mater’s gates, or whether we will ever meet again in the future. But in any case, farewell has never been the end; every parting is, after all, a new beginning in life. Thank you for giving me such a beautiful journey, for having appeared in my life, and for shaping the “ego” I am today. This experience, this kindness, I will carry with me for the rest of my life.
 
 So here I lie in our imperfect paradise.
+
 A eulogistic lullaby.
 
 And thank you for everything.
 
 Sincerely,
+
 Zhou Chenyu
 
 2026.06.05

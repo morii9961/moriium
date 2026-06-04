@@ -1,12 +1,12 @@
 ---
+draft: false
+encrypted: true
 title: A Farewell, But Not the Finale
 published: 2026-06-05T09:25:00.000+08:00
-tags:
-category: 杂谈
-draft: false
 unlisted: true
-encrypted: true
+tags: null
 password: "260607"
+category: 杂谈
 ---
 ::music{meting="https://meting.spr-aachen.com/api?server=netease&type=song&id=1887467091"}
 
@@ -34,7 +34,11 @@ So here I lie in our imperfect paradise.
 
 A eulogistic lullaby.
 
+
+
 And thank you for everything.
+
+
 
 Sincerely,
 
